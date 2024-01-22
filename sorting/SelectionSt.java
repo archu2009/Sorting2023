@@ -9,7 +9,6 @@ public class SelectionSt {
 
     public static void main(String[] a) {
         int[] A = selectionSort(new int[]{1, 4, 7, 2,0});
-        selectionSort(A);
         System.out.println("A :" + Arrays.toString(A));
 
     }
